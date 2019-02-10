@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attdtb">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="21dp"
+        android:text="Your Attendance has been marked for the following days:"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="365dp"
+        android:layout_height="352dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_marginTop="154dp"
+        android:textSize="20dp"
+        android:hint="Attendance Here " />
+
+</RelativeLayout>
